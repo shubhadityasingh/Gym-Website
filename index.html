@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEUSFitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bangers&display=swap">
+<style>
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;  
+        background: url('img/bg.jpg');
+        font-family: 'Bangers', cursive;
+    }
+    .left{
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 60px;
+        top: 15px;
+        text-align: center;
+        font-size: 25px;
+    }
+    .mid{
+        display:block;
+        margin: 15px auto;
+        /* border: 2px solid green; */
+        width: 40%;
+    }
+    .right{
+        display: inline-block;
+        /* border: 2px solid yellow; */
+        position: absolute;
+        right: 20px;
+        top: 15px;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 15px 15px;
+        font-size: 35px;
+    }
+    .navbar li a:hover{
+        color: crimson;
+        text-decoration:underline;
+    }
+    .navbar li a:active{
+        color: cyan;
+        text-decoration: solid;
+    }
+    .left img{
+        border-radius: 50%;
+        width: 100px;
+        height: 80px;
+        /* filter: invert(100%);    */
+    }
+    .btn{
+        margin: 0px 8px;
+        padding: 8px 15px;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        font-family: 'Bangers', cursive;
+    }
+    .btn:hover{
+        background-color: rgb(49, 44, 44);
+        color: cyan;
+        text-decoration:underline;
+    }
+    .container{
+        border: 2px solid green;
+        margin: 2px 2px;
+        padding: 2px 2px;
+        
+    }
+
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/zeus3.jpg" alt=""><br>
+            ZEUSFitness
+        </div>
+
+        <!-- mid box for nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">Fitness</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Join Now</button>
+            <button class="btn">Log In</button>
+        </div>
+    </header>    
+</body>
+</html>
